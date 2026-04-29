@@ -31,115 +31,65 @@
     min-height: 100vh;
     -webkit-font-smoothing: antialiased;
   }
-  .wrap {
-    max-width: 760px;
-    margin: 0 auto;
-    padding: 64px 28px 96px;
-  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 64px 28px 96px; }
   header {
-    text-align: center;
-    margin-bottom: 56px;
-    padding-bottom: 40px;
+    text-align: center; margin-bottom: 56px; padding-bottom: 40px;
     border-bottom: 1px solid var(--hairline);
   }
   .logo {
-    font-size: 28px;
-    font-weight: 700;
-    letter-spacing: 0.18em;
+    font-size: 28px; font-weight: 700; letter-spacing: 0.18em;
     background: linear-gradient(90deg, var(--accent-cyan), #7B85FF, var(--accent-violet));
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
+    -webkit-background-clip: text; background-clip: text; color: transparent;
     margin-bottom: 12px;
   }
   .tag {
-    font-size: 12px;
-    letter-spacing: 0.3em;
-    color: var(--accent-red);
-    text-transform: uppercase;
-    opacity: 0.78;
-    margin-bottom: 28px;
+    font-size: 12px; letter-spacing: 0.3em; color: var(--accent-red);
+    text-transform: uppercase; opacity: 0.78; margin-bottom: 28px;
   }
-  h1 {
-    font-size: 32px;
-    font-weight: 600;
-    letter-spacing: -0.01em;
-    margin-bottom: 8px;
-  }
-  .updated {
-    font-size: 13px;
-    color: var(--text-tertiary);
-    letter-spacing: 0.05em;
-  }
+  h1 { font-size: 32px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 8px; }
+  .updated { font-size: 13px; color: var(--text-tertiary); letter-spacing: 0.05em; }
   h2 {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: 0.02em;
-    margin: 44px 0 14px;
-    padding-top: 28px;
-    border-top: 1px solid var(--hairline);
-    color: var(--text-primary);
+    font-size: 18px; font-weight: 600; letter-spacing: 0.02em;
+    margin: 44px 0 14px; padding-top: 28px;
+    border-top: 1px solid var(--hairline); color: var(--text-primary);
   }
   h2:first-of-type { border-top: none; padding-top: 0; }
   h3 {
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--accent-cyan);
-    margin: 24px 0 8px;
-    opacity: 0.85;
+    font-size: 14px; font-weight: 600; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--accent-cyan);
+    margin: 24px 0 8px; opacity: 0.85;
   }
-  p, li {
-    font-size: 15.5px;
-    color: var(--text-secondary);
-    margin-bottom: 12px;
-  }
-  ul {
-    padding-left: 22px;
-    margin-bottom: 16px;
-  }
+  p, li { font-size: 15.5px; color: var(--text-secondary); margin-bottom: 12px; }
+  ul { padding-left: 22px; margin-bottom: 16px; }
   li { margin-bottom: 6px; }
   strong { color: var(--text-primary); font-weight: 600; }
   a {
-    color: var(--accent-cyan);
-    text-decoration: none;
+    color: var(--accent-cyan); text-decoration: none;
     border-bottom: 1px solid rgba(122,235,255,0.3);
     transition: opacity 0.2s;
   }
   a:hover { opacity: 0.7; }
   .panel {
-    background: var(--panel);
-    border: 1px solid var(--hairline);
-    border-radius: 14px;
-    padding: 22px 24px;
-    margin: 20px 0;
+    background: var(--panel); border: 1px solid var(--hairline);
+    border-radius: 14px; padding: 22px 24px; margin: 20px 0;
   }
   .intro {
-    font-size: 17px;
-    color: var(--text-primary);
-    margin-bottom: 32px;
-    line-height: 1.7;
+    font-size: 17px; color: var(--text-primary);
+    margin-bottom: 32px; line-height: 1.7;
   }
   footer {
-    margin-top: 72px;
-    padding-top: 32px;
+    margin-top: 72px; padding-top: 32px;
     border-top: 1px solid var(--hairline);
-    text-align: center;
-    color: var(--text-tertiary);
-    font-size: 12px;
-    letter-spacing: 0.08em;
+    text-align: center; color: var(--text-tertiary);
+    font-size: 12px; letter-spacing: 0.08em;
   }
   .contact-block {
     background: linear-gradient(135deg, rgba(122,235,255,0.05), rgba(200,97,255,0.05));
     border: 1px solid var(--hairline);
-    border-radius: 14px;
-    padding: 24px;
-    margin-top: 16px;
+    border-radius: 14px; padding: 24px; margin-top: 16px;
   }
   .contact-block a {
-    font-weight: 500;
-    border-bottom: 1px solid rgba(122,235,255,0.5);
+    font-weight: 500; border-bottom: 1px solid rgba(122,235,255,0.5);
   }
   @media (max-width: 600px) {
     .wrap { padding: 40px 20px 64px; }
@@ -167,7 +117,7 @@
 
 <h2>1. Who we are</h2>
 <p>
-  Nexus Protocol is published by <strong>Jean-Marc Moro</strong> (operating as Air Dante / House of Digital Art),
+  Nexus Protocol is published by <strong>Jean-Marc Moro</strong>, an individual sole proprietor
   based in Barcelona, Spain. Throughout this document, "we", "us" and "our" refer to the publisher,
   and "you" refers to the person using the app.
 </p>
@@ -233,12 +183,6 @@
   in compliance with GDPR. You can read Supabase's own privacy policy at
   <a href="https://supabase.com/privacy" rel="noopener">supabase.com/privacy</a>.
 </p>
-<p>
-  Authentication emails (such as password reset messages) are delivered through
-  <strong>Resend</strong>, an email infrastructure provider. They handle only the temporary
-  delivery of the email itself and do not retain your message contents long-term.
-  Their policy is at <a href="https://resend.com/legal/privacy-policy" rel="noopener">resend.com/legal/privacy-policy</a>.
-</p>
 
 <h2>5. Why we collect what we collect — legal basis (GDPR)</h2>
 <ul>
@@ -302,14 +246,14 @@
 
 <h2>12. Contact</h2>
 <div class="contact-block">
-  <p style="margin-bottom: 4px;"><strong>Data controller:</strong> JM M.P. Moro</p>
-  <p style="margin-bottom: 4px;"><strong>Location:</strong> Barcelona , Spain</p>
+  <p style="margin-bottom: 4px;"><strong>Data controller:</strong> Jean-Marc Moro</p>
+  <p style="margin-bottom: 4px;"><strong>Location:</strong> Barcelona, Spain</p>
   <p style="margin-bottom: 4px;"><strong>Email:</strong> <a href="mailto:protocol@nexusprotocol.app">protocol@nexusprotocol.app</a></p>
   <p style="margin-bottom: 0;">For any privacy question, request, or concern, write to the address above. We read every message.</p>
 </div>
 
 <footer>
-  © 2026 NEXUS&nbsp;PROTOCOL · BERLIN · ROMA · BARCELONA<br/>
+  © 2026 NEXUS&nbsp;PROTOCOL · BARCELONA<br/>
   <span style="opacity: 0.6;">Built with care. Your signal belongs to you.</span>
 </footer>
 
